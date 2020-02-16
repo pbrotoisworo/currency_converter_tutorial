@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Currency Converter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUSD">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>189</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>USD</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPHP">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>218</y>
+     <width>22</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PHP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIDR">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>247</y>
+     <width>20</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IDR</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditUSD">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>189</y>
+     <width>137</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditPHP">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>218</y>
+     <width>137</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditIDR">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>247</y>
+     <width>137</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLogo">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>160</y>
+     <width>58</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reference</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxReferenceCurrency">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>USD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PHP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>IDR</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButtonConfigure">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>290</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Configure</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLoadRates">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load Rates</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
